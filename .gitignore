@@ -1,0 +1,26 @@
+# Local Python environments and caches
+.venv-dashboard/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+
+# Generated previews, scratch data, and validation outputs
+outputs/
+tmp/
+.build/
+.chart-data-*/
+_brief_render/
+.codex-finalizer/
+dashboard/preview.jpg
+
+# Source and company-provided files are kept local
+FruitBlend24_Intern_Case_Data.xlsx
+FruitBlend24_Case_Brief.docx
+FruitBlend24_Analysis_Outputs.zip
+
+# Local editor and OS files
+.vscode/
+.idea/
+*.log
+Thumbs.db
+desktop.ini
